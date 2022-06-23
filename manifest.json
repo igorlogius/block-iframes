@@ -5,6 +5,9 @@
       "background.js"
     ]
   },
+  "icons": {
+    "200": "icon.png"
+  },
   "browser_action": {
   },
   "description": "",
@@ -15,5 +18,5 @@
     "webRequest",
     "webRequestBlocking"
   ],
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
