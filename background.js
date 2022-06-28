@@ -1,3 +1,4 @@
+/* global browser */
 
 let active = true;
 
@@ -7,7 +8,7 @@ const extraInfoSpec = ["blocking"];
 browser.browserAction.setBadgeText({text: (active?'on':'off') });
 browser.browserAction.setBadgeBackgroundColor({color: 'green'});
 
-function BAonClicked(tab) {
+function BAonClicked() {
     active = !active; // toggle active state
 	browser.browserAction.setBadgeText({text: (active?'on':'off') });
     browser.browserAction.setBadgeBackgroundColor({color: (active?'green':'red')});
