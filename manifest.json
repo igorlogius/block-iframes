@@ -12,11 +12,11 @@
   },
   "description": "",
   "manifest_version": 2,
-  "name": "block-iframes",
+  "name": "Block iFrames",
   "permissions": [
     "<all_urls>",
     "webRequest",
     "webRequestBlocking"
   ],
-  "version": "1.1.2"
+  "version": "1.1.3"
 }
